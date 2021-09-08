@@ -15,11 +15,12 @@ body {
 }
 
 .container {
+  display: flex;
   width: 1000px;
   margin: auto;
+  flex-wrap: wrap;
 }
 .card{
-    float: left;
     position: relative;
     height: 265px;
     width: 265px;
