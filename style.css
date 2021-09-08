@@ -1,0 +1,47 @@
+ :root {
+    --card-backgroung-color: #71a7b8;
+    --background-color: #add8e6; 
+    --card-body-color: #fff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+body {
+    background-color: var(--background-color);
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+}
+.card{
+    float: left;
+    position: relative;
+    height: 265px;
+    width: 265px;
+    background-color: var(--card-backgroung-color);
+    margin: .33em;
+}
+
+.card-body {
+    height: 140px;
+    width: 265px;
+    position: absolute;
+    bottom: 0;
+    padding: .8em;
+    background-color: var(--card-body-color);
+}
+
+.card-body h4 {
+    font-size: .79rem;
+    font-weight: lighter;
+}
+
+.card-body h3 {
+    font-size: 1.31rem;
+    margin-bottom: .75em;
+}
