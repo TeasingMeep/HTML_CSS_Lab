@@ -18,7 +18,8 @@ body {
   display: flex;
   width: 1000px;
   margin: auto;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+  justify-content: center;
 }
 .card{
     position: relative;
